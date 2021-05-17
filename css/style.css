@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,.8);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+}
+.brand h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Lobster', cursive;
+    color: crimson;
+    background: white;
+    text-align: center;
+
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+nav ul li a.active{
+    background: #f00;
+}
+nav ul li a:hover{
+    background: #f00;
+}
+.welcome_text p{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Impact;
+    font-size: 60px;
+}
+.welcome_text h2{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Impact;
+    font-size: 20px;
+}
+.error {color: crimson;}
+body{
+    background-color: white;
+    font-family: "Arial", sans-serif;
+    padding-top: 0px;
+}
+.container{
+    margin: 20px auto;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.log_in{
+    background-color:crimson !important;
+}
+.log_in h1{
+    color: thistle;
+}
+ h1{
+     width: 70%;
+    color: #777;
+    font-size: 32px;
+    margin: 28px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    /*padding-top: 40px;*/
+}
+form{
+    /*padding: 15px;*/
+    text-align: center;
+}
+input{
+    padding: 12px 0;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    text-align: center;
+    width: 90%;
+    font-size: 16px;
+    transition: border .2s, background-color .2s;
+}
+form .field{
+    background-color: #ECF0F1;
+}
+form .field:focus {
+    border: 2px solid #3498DB;
+}
+form .btn{
+    background-color: green;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+}
+form .btn:hover,
+form .btn:active {
+    background-color: white;
+    border: 2px solid #1F78B4;
+    color:crimson;
+}
+.pass-link{
+    text-align: center;
+    text-decoration: none;
+}
+.pass-link a:link,
+.pass-link a:visited{
+    font-size: 12px;
+    color: #777;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
