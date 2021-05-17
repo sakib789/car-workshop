@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <script src="../js/main.js"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="shortcut icon" href="../img/favicon.png">
     <style>
         body {
             background-image: url('../img/cover03.jpg');
